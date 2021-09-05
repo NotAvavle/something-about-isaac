@@ -1,0 +1,123 @@
+<html>
+    <head>
+      <title>The binding of isaac</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body marginwidth="0" marginheight="0">
+      <div id="box">
+      <div id="header">
+        <a href="isaac.html">
+          <div id="ref">
+            <center>Strona Główna</center>
+          </div>
+        </a>
+        <div id="podstawka">
+          <button class="dropbtn" onclick="cosinus()">Podstawka
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="isitems.html">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function cosinus(){
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')){
+              myDropdown.classList.remove('show');
+            }
+              }
+          }
+        </script>
+        </div>
+        <div id="rebirth">
+          <button class="dropbtn1" onclick="sinus()">Rebirth
+                <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content1" id="myDropdown1">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function sinus() {
+            document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn1')) {
+                var myDropdown = document.getElementById("myDropdown1");
+                if (myDropdown.classList.contains('show1')) {
+                  myDropdown.classList.remove('show');
+                }
+            }
+            }
+        </script>
+        <div id="afterbirth">
+          <button class="dropbtn2" onclick="tangens()">Afterbirth
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content2" id="myDropdown2">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function tangens() {
+            document.getElementById("myDropdown2").classList.toggle("show2");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn2')) {
+            var myDropdown = document.getElementById("myDropdown2");
+            if (myDropdown.classList.contains('show2')) {
+              myDropdown.classList.remove('show2');
+              }
+            }
+          }
+        </script>
+        <div id="afterbirthp">
+          <button class="dropbtn3" onclick="cotangens()">Afterbirth+
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content3" id="myDropdown3">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function cotangens() {
+            document.getElementById("myDropdown3").classList.toggle("show3");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn3')) {
+              var myDropdown = document.getElementById("myDropdown3");
+              if (myDropdown.classList.contains('show3')) {
+                myDropdown.classList.remove('show3');
+              }
+            }
+          }
+        </script>
+        </div>
+        <div id="cyc">
+        </div>
+        <div id="klata">
+        </div>
+
+    </div>
+  </body>
+</html>

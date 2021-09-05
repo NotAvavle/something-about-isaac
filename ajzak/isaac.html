@@ -1,0 +1,243 @@
+<html>
+    <head>
+      <title>The binding of isaac</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body marginwidth="0" marginheight="0">
+      <div id="box">
+      <div id="header">
+        <a href="javascript:location.reload()">
+          <div id="ref">
+            <center>Odświerz stronę</center>
+          </div>
+        </a>
+        <div id="podstawka">
+          <button class="dropbtn" onclick="cosinus()">Podstawka
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content" id="myDropdown">
+            <a href="isitems.html">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="synergie.html">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function cosinus(){
+            document.getElementById("myDropdown").classList.toggle("show");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn')) {
+              var myDropdown = document.getElementById("myDropdown");
+              if (myDropdown.classList.contains('show')){
+              myDropdown.classList.remove('show');
+            }
+              }
+          }
+        </script>
+        </div>
+        <div id="rebirth">
+          <button class="dropbtn1" onclick="sinus()">Rebirth
+                <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content1" id="myDropdown1">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function sinus() {
+            document.getElementById("myDropdown1").classList.toggle("show1");
+            }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn1')) {
+                var myDropdown = document.getElementById("myDropdown1");
+                if (myDropdown.classList.contains('show1')) {
+                  myDropdown.classList.remove('show');
+                }
+            }
+            }
+        </script>
+        <div id="afterbirth">
+          <button class="dropbtn2" onclick="tangens()">Afterbirth
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content2" id="myDropdown2">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function tangens() {
+            document.getElementById("myDropdown2").classList.toggle("show2");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn2')) {
+            var myDropdown = document.getElementById("myDropdown2");
+            if (myDropdown.classList.contains('show2')) {
+              myDropdown.classList.remove('show2');
+              }
+            }
+          }
+        </script>
+        <div id="afterbirthp">
+          <button class="dropbtn3" onclick="cotangens()">Afterbirth+
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content3" id="myDropdown3">
+            <a href="#">Itemki</a>
+            <a href="#">Postacie</a>
+            <a href="#">Przeciwnicy</a>
+            <a href="#">Bossowie</a>
+            <a href="#">synergie ( ͡° ͜ʖ ͡°)</a>
+          </div>
+        </div>
+        <script>
+          function cotangens() {
+            document.getElementById("myDropdown3").classList.toggle("show3");
+          }
+          window.onclick = function(e) {
+            if (!e.target.matches('.dropbtn3')) {
+              var myDropdown = document.getElementById("myDropdown3");
+              if (myDropdown.classList.contains('show3')) {
+                myDropdown.classList.remove('show3');
+              }
+            }
+          }
+        </script>
+      <div id="cyc">
+          <br>
+          <center><h1 id="zdj1">The binding of Isaac</h1></center>
+          <br>
+          <br>
+          <br>
+          <br>
+          <center><h1 id="zdj2">The binding of Isaac rebirth</h1></center>
+          <br>
+          <br>
+          <br>
+          <br>
+          <center><h1 id="zdj3">The binding of Isaac afterbirth</h1></center>
+          <br>
+          <br>
+          <br> 
+          <br>
+          <center><h1 id="zdj4">The binding of Isaac afterbirth+</center>
+      </div>
+      <div id="klata">
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <br>
+          <center><iframe width="80%" height="50%" src="https://www.youtube.com/embed/4UvCYpmsfNE" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></center>
+      </div>
+      <script type="text/javascript">
+          var b1 = document.getElementById('zdj1'),
+              b2 = document.getElementById('zdj2'),
+              b3 = document.getElementById('zdj3'),
+              b4 = document.getElementById('zdj4'),
+              tresc = document.getElementById('klata');
+              b1.onclick = function(){
+                tresc.innerHTML = "<h1><center>Wersja Podstawowa</center></h1><br>" 
+                + "<center>Gra twórców Super Meat Boy, w której przemierzamy piwnicę, jaskinię, katakumby, womb, katedre, sheol, chest <br> i darkroom postaciami:</center> <br>" +
+                " <ul>" +
+                " <li><Font size=6><img src=Isaac/isaac.png> Isaac</li>" +
+                "<li><img src=Isaac/maggy.png> Magdalene </li>"+
+                "<li><img src=Isaac/cain.png>Cain</li>"+
+                "<li><img src=Isaac/BlueBaby.png>Blue baby</li>"+
+                "<li><img src=Isaac/judas.png>Judas</li>"+
+                "<li><img src=Isaac/samson.png>Samson</font></li>"+
+                "</ul>"+
+                "<br>"+
+                " <center>Gra typu roguelike, w którym po przegranej lub wygranej resetuje się nasze podejście. Każde podejście ma swoje id nazywane seedem."+
+                " Po rozpoczęciu gry automatycznie się generuje, przechodzimy przez losowo generowane pokoje, walczymy z różnymi przeciwnikami i zbieramy unikatowe przedmioty. Znajduje się tutaj klika specjalnych pokoi:  </center>"+
+                "<ul>" +
+                "<li><Font size=6> Boss Room</li>" +
+                "<li> Treasure Room</li>"+
+                "<li> Sklep</li>"+
+                "<li> Arcade room</li>"+
+                "<li> Curse room</li>"+
+                "<li> Mini boss room</li>" +
+                "<li> Boss challangeroom</li>"+
+                "<li> Challange room</li>"+
+                "<li> Sacriface Room</li>"+
+                "<li> Biblioteka</li>"+
+                "<li> Dice room</li>"+
+                "<li> Devil room</li>"+
+                "<li> Angel room</li>"+
+                "<li> Secret room</li>"+
+                "<li> Super secret room</font></li>"+
+                "</ul>";
+              }
+              b2.onclick = function(){
+                tresc.innerHTML = "<h1><center>Dodatek Rebirth</center></h1>"+ 
+                "<br>"+
+                "<br>"+
+                "<center>Dodaje on lepszą oprawę graficzną, kilka nowych postaci, więcej przedmiotów, przeciwników i bossów, runy, uleposzenie sklepu <br> i oczywiście nowe soundtrucki ( ͡° ͜ʖ ͡°) </center>"+
+                "<ul>" +
+                "<li><Font size=6><img src=Isaacr/isaac.png height=7%> Isaac</li>" +
+                "<li><img src=Isaacr/maggy.png height=7%> Magdalene </li>"+
+                "<li><img src=Isaacr/cain.png height=7%>Cain</li>"+
+                "<li><img src=Isaacr/BlueBaby.png height=7%>Blue baby</li>"+
+                "<li><img src=Isaacr/judas.png height=7%>Judas</li>"+
+                "<li><img src=Isaacr/samson.png height=7%>Samson</li>"+
+                "<li><img src=Isaacr/Lazarus.png height=7%>Lazarus</li>"+
+                "<li><img src=Isaacr/azazel.png height=7%>Azazel</li>"+
+                "<li><img src=Isaacr/lost.png height=7%>The Lost</font></li>"+
+                "</ul>"+
+                "<br>";
+              }
+              b3.onclick = function(){
+                tresc.innerHTML = "<h1><center>Dodatek Afterbirth</center></h1><br>" +
+                "<center>Dodał on nowe przedmioty, nowy tryb gry - Greed Mode, 2 nowe postacie, przeciwników i bossa końcowego</center>"+
+                " <ul>" +
+                "<li><Font size=6><img src=Isaacr/isaac.png height=7%> Isaac</li>" +
+                "<li><img src=Isaacr/maggy.png height=7%> Magdalene </li>"+
+                "<li><img src=Isaacr/cain.png height=7%>Cain</li>"+
+                "<li><img src=Isaacr/BlueBaby.png height=7%>Blue baby</li>"+
+                "<li><img src=Isaacr/judas.png height=7%>Judas</li>"+
+                "<li><img src=Isaacr/samson.png height=7%>Samson</li>"+
+                "<li><img src=Isaacr/Lazarus.png height=7%>Lazarus</li>"+
+                "<li><img src=Isaacr/azazel.png height=7%>Azazel</li>"+
+                "<li><img src=Isaacr/Lilith.png height=7%>Lilith</li>"+
+                "<li><img src=Isaacr/Keeper.png height=7%>Keeper</li>"+
+                "<li><img src=Isaacr/lost.png height=7%>The Lost</font></li>"+
+                "</ul>";
+              }
+              b4.onclick = function(){
+                tresc.innerHTML = "<h1><center>Dodatek Afterbirth+</center></h1><br>" +
+                "<center>Dodatek ten dodał 2 nowe postaci, nowego finałowego bossa, 69 nowych przedmiotów,4 nowych bossów i nowy tryb</center>"+
+                " <ul>" +
+                "<li><Font size=6><img src=Isaacr/isaac.png height=7%> Isaac</li>" +
+                "<li><img src=Isaacr/maggy.png height=7%> Magdalene </li>"+
+                "<li><img src=Isaacr/cain.png height=7%>Cain</li>"+
+                "<li><img src=Isaacr/BlueBaby.png height=7%>Blue baby</li>"+
+                "<li><img src=Isaacr/judas.png height=7%>Judas</li>"+
+                "<li><img src=Isaacr/samson.png height=7%>Samson</li>"+
+                "<li><img src=Isaacr/Lazarus.png height=7%>Lazarus</li>"+
+                "<li><img src=Isaacr/azazel.png height=7%>Azazel</li>"+
+                "<li><img src=Isaacr/Lilith.png height=7%>Lilith</li>"+
+                "<li><img src=Isaacr/Keeper.png height=7%>Keeper</li>"+
+                "<li><img src=Isaacr/Apollyon.png height=7%>Apollyn</li>"+
+                "<li><img src=Isaacr/Forgotten.png height=7%>Forgotten</li>"+
+                "<li><img src=Isaacr/lost.png height=7%>The Lost</font></li>"+
+                "</ul>";
+              }
+      </script>
+      </div>
+    </div>
+  </div>
+    </body>
+</html>
